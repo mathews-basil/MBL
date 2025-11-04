@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Designined by MBL TECHZ -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Copy Code To Clipboard | CodingLab </title>
+    <link rel="stylesheet" href="copy.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="text-boxes">
+    <div class="text-box HTMLBox">
+      <div class="topic">HTML CSS Code:</div>
+      <textarea id="HTMLBox" readonly >
+        <html>
+            <head>
+                <title>
+                    NAV BAR
+                </title>
+                <style>
+                    ul li{
+                        display: inline;
+                        padding: 20px;
+                    }
+                    .navbar{
+                        margin: 40px;
+                        text-align: center;
+                    }
+                    ul li:hover{
+                        cursor: pointer;
+                        background-color: orangered;
+                        color: white;
+                    }
+                    h1,h3{
+                        text-align: center;
+                        color: orangered;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="navbar">
+                    <ul>
+                        <li>HOME</li>
+                        <li>SERVICES</li>
+                        <li>CONTACT</li>
+                        <li>ABOUT</li>
+                    </ul>
+                </div>
+                <h1> NAVIGATION BAR </h1>
+                <h3> USING HTML CSS</h3>
+            </body>
+        </html>
+      </textarea>
+      <button id="HTMLButton">Copy Codes</button>
+    </div>
+   
+
+  <script>
+  // HTML BOx JS Code
+    let HTMLBox = document.getElementById("HTMLBox");
+    let HTMLButton = document.getElementById("HTMLButton");
+
+    HTMLButton.onclick = function() {
+      HTMLBox.select();
+      document.execCommand("copy");
+      HTMLButton.innerText = "Codes Copied"
+    }
+  </script>
+
+
+</body>
+</html>

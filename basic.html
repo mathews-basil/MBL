@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Designined by MBL TECHZ -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> CODE </title>
+    <link rel="stylesheet" href="copy.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="text-boxes">
+    <div class="text-box HTMLBox">
+      <div class="topic">HTML Code:</div>
+      <textarea id="HTMLBox" readonly >
+       <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		beautiful and simple website using html only -- fullywrold web tutorials
+	</title>
+</head>
+<body background="1.jpg" link="#000" alink="#017bf5" vlink="#000">
+	<br />
+	<h3 align="center">
+		<font face="Lato" size="6">LOGO</font>
+		                   
+		                   
+		                   
+		                   
+		<font face="cinzel" size="4">
+			<a href="#">HOME</a>    
+			<a href="#">VIDEOS</a>    
+			<a href="#">PORTFOLIO</a>    
+			<a href="#">BLOG</a>    
+			<a href="#">CONTACT US</a>
+		</font>
+	</h3>
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<h1 align="center">
+		<font face="Lato" color="#017bf5" size="7">
+			BEAUTIFUL AND SIMPLE WEB PAGE
+		</font>
+	</h1>
+	<h3 align="center">
+		<font face="Lato" color="#000" size="5">
+			USING HTML ONLY (NO CSS USED)
+		</font>
+	</h3>
+	<br />
+	<h3 align="center">
+	<a href="#">
+		<font face="Lato" color="#000">GET STARTED</font>
+	</a>    
+	<a href="#">
+		<font face="Lato" color="#fff">SUBSCRIBE US</font>
+	</a>
+	</h3>
+</body>
+</html>
+
+      </textarea>
+      <button id="HTMLButton">Copy Code</button>
+    </div>
+   
+
+  <script>
+  // HTML BOx JS Code
+    let HTMLBox = document.getElementById("HTMLBox");
+    let HTMLButton = document.getElementById("HTMLButton");
+
+    HTMLButton.onclick = function() {
+      HTMLBox.select();
+      document.execCommand("copy");
+      HTMLButton.innerText = "Codes Copied"
+    }
+
+  </script>
+
+
+</body>
+</html>
