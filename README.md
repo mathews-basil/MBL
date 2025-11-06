@@ -31,8 +31,4 @@ It integrates an **online IDE**, allowing learners to write, run, and test their
 
 ---
 
-## 🖼️ Preview
-
-(Add a screenshot or demo GIF here)
-
 Back to 2021 I remember building a webiste for managing and showcasing my Technical and Coding skills on youtube and building an Interactive website for it, Really regretting at the moment for not publishing it.
